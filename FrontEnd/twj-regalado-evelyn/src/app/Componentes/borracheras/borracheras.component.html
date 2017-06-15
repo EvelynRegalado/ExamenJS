@@ -1,22 +1,30 @@
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
 <div class="container">
-  <h1>Deber N 2</h1>
-  <h2>BIENVENIDOS CREAR USUARIO</h2>
-  <h2>Usuarios</h2>
+  <br>
+  <h1 align="center">Escuela Politécnica Nacional</h1>
+  <h1 align="center">Tecnologías Web con JavaScript</h1>
+  <h2 align="center">Evelyn Regalado</h2>
 
   <div class="row">
     <div class="col-sm-6">
       <div class="form-group">
 
         <label class="col-form-label">
-          Nombre Usuario:
+          Ingrese los datos:
         </label>
+        <!-- Recive al input-->
         <input class="form-control"
-               placeholder="Ingrese nuevo nombre"
+               placeholder="Ingrese el Motivo"
                [(ngModel)]="nuevoBorrachera.motivo" type="text">
+        <input class="form-control"
+               placeholder="Ingrese la Latitud"
+               [(ngModel)]="nuevoBorrachera.latitudDondeEmpezo" type="text">
+        <input class="form-control"
+               placeholder="Ingrese la Longitud"
+               [(ngModel)]="nuevoBorrachera.longitudDondeEmpezo" type="text">
+
       </div>
-      <button class="btn btn-primary" (click)="crearUsuario()">Crear Usuario</button>
-      <button class="btn btn-primary" (click)="actualizarUsuario()">Actualizar Lista de Usuarios</button>
+      <button class="btn btn-primary" (click)="crearBorrachera()">Guardar</button>
     </div>
   </div>
 </div>

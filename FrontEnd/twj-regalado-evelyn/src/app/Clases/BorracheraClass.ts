@@ -3,10 +3,12 @@
  */
 export class BorracheraClass{
 
-  constructor(public nombre?:string,
-              public id?:number,
+  constructor(public id?:number,
+              public motivo?:string,
+              public latitudDondeEmpezo?:number,
+              public longitudDondeEmpezo?:number,
               public createdAt?:Date,
               public updateAt?:Date){
-    this.nombre=nombre;
+    this.motivo=motivo;
   }
 }

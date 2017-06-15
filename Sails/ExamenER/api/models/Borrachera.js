@@ -6,16 +6,16 @@
  */
 
 module.exports = {
-  connection: 'conexionMongodbServerDocker',
+  connection: 'localDiskDb',
   attributes: {
     motivo:{
       type:"string"
     },
     latitudDondeEmpezo:{
-      type:"interger"
+      type:"integer"
     },
     longitudDondeEmpezo:{
-      type:"interger"
+      type:"integer"
     }
   }
 };

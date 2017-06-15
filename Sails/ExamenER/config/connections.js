@@ -64,11 +64,11 @@ module.exports.connections = {
   //   password: 'password', //optional
   //   database: 'your_mongo_db_name_here' //optional
   // },
-  conexionMongodbServerDocker: {
+ /* conexionMongodbServerDocker: {
     adapter: 'sails-mongo',
     host: 'localhost',
     port: 27017,
-  }
+  }*/
   /***************************************************************************
   *                                                                          *
   * PostgreSQL is another officially supported relational database.          *

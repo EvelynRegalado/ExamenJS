@@ -13,7 +13,8 @@ export class BorracherasComponent implements OnInit {
   longitudDondeEmpezo:number;
 
   borracheras: BorracheraClass[] = [];
-  nuevoUsuario: BorracheraClass = new BorracheraClass("");
+  nuevoBorrachera: BorracheraClass = new BorracheraClass();
+
   constructor() { }
 
   ngOnInit() {

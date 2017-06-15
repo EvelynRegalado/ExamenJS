@@ -17,6 +17,6 @@ import { BorracherasComponent } from './Componentes/borracheras/borracheras.comp
     HttpModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [BorracherasComponent]
 })
 export class AppModule { }

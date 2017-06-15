@@ -6,7 +6,7 @@ export interface PeliculaHarryPotter{
   species: string,
   gender: string,
   house: string,
-  dateOfBirth: date,
+  dateOfBirth: string,
   yearOfBirth: number,
   ancestry: string,
   eyeColour: string,

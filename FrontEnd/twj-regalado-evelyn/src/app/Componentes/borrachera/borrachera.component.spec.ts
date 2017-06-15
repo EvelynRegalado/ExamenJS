@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BorracherasComponent } from './borracheras.component';
+import { BorracherasComponent } from './borrachera.component';
 
 describe('BorracherasComponent', () => {
   let component: BorracherasComponent;

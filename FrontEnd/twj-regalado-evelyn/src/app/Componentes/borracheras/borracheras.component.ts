@@ -4,8 +4,8 @@ import {Http} from "@angular/http";
 
 @Component({
   selector: 'app-borracheras',
-  templateUrl: './borrachera.component.html',
-  styleUrls: ['./borrachera.component.css']
+  templateUrl: './borracheras.component.html',
+  styleUrls: ['./borracheras.component.css']
 })
 export class BorracherasComponent implements OnInit {
 

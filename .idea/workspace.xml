@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2253-c364-4ea5-98be-c28cae22d16d" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.css" afterPath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borrachera/borrachera.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.html" afterPath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borrachera/borrachera.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.spec.ts" afterPath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borrachera/borrachera.component.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.ts" afterPath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borrachera/borrachera.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borrachera/borrachera.component.css" afterPath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borrachera/borrachera.component.html" afterPath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borrachera/borrachera.component.spec.ts" afterPath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.spec.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borrachera/borrachera.component.ts" afterPath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/app.module.ts" afterPath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/Interfaces/HarryPotter.ts" afterPath="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/Interfaces/HarryPotter.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/app.module.ts" afterPath="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/app.module.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/index.html" afterPath="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/index.html" />
     </list>
@@ -25,18 +23,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="borrachera.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borrachera/borrachera.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,18 +37,58 @@
         <entry file="file://$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/harry-potter/harry-potter.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="29" />
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="borracheras.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="71" />
+              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+                <marker date="1497562800461" expanded="true" signature="838:851" ph="[...]" />
+                <marker date="1497562800461" expanded="true" signature="838:943" ph="{...}" />
+                <marker date="1497562800461" expanded="true" signature="864:887" ph="[...]" />
+                <marker date="1497562800461" expanded="true" signature="968:971" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,31 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="borrachera.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borrachera/borrachera.component.html">
+      <file leaf-file-name="borracheras.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Borrachera.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sails/ExamenER/api/models/Borrachera.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cors.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sails/ExamenER/config/cors.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="49" column="12" lean-forward="false" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+            <state relative-caret-position="271">
+              <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -153,11 +159,12 @@
         <option value="$PROJECT_DIR$/Sails/ExamenER/api/models/Borrachera.js" />
         <option value="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/index.html" />
         <option value="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.html" />
         <option value="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/Interfaces/HarryPotter.ts" />
         <option value="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/index.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.html" />
       </list>
     </option>
   </component>
@@ -312,40 +319,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FrontEndProblem2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twj-examen-regalado-evelyn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Componentes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harry-potter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExamenJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExamenJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="FrontEnd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -429,6 +402,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Componentes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="borracheras" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -570,16 +547,15 @@
       <updated>1497468365393</updated>
       <workItem from="1497468371799" duration="4211000" />
       <workItem from="1497532139238" duration="10699000" />
-      <workItem from="1497553561895" duration="7837000" />
+      <workItem from="1497553561895" duration="9275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22747000" />
+    <option name="totallyTimeSpent" value="24185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24925596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -588,7 +564,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30114567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30114567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -611,7 +587,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borrachera/borrachera.component.ts">
+    <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="29" />
@@ -667,7 +643,7 @@
         <state relative-caret-position="34">
           <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -680,7 +656,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borrachera/borrachera.component.html">
+    <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
@@ -782,7 +758,7 @@
         <state relative-caret-position="34">
           <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -791,34 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borrachera/borrachera.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borrachera/borrachera.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -847,16 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/Interfaces/HarryPotter.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc;n#PeliculaHarryPotter#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Clases/BorracheraClass.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -878,7 +816,7 @@
     <entry file="file://$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/harry-potter/harry-potter.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="29" />
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -886,7 +824,59 @@
     <entry file="file://$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="71" />
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <marker date="1497562800461" expanded="true" signature="838:851" ph="[...]" />
+            <marker date="1497562800461" expanded="true" signature="838:943" ph="{...}" />
+            <marker date="1497562800461" expanded="true" signature="864:887" ph="[...]" />
+            <marker date="1497562800461" expanded="true" signature="968:971" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/Interfaces/HarryPotter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc;n#PeliculaHarryPotter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
           <folding />
         </state>
       </provider>

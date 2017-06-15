@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { BorracherasComponent } from './Componentes/borrachera/borrachera.component';
+import { BorracherasComponent } from './Componentes/borracheras/borracheras.component';
 
 @NgModule({
   declarations: [

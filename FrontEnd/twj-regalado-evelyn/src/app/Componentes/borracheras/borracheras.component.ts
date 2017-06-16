@@ -16,7 +16,7 @@ export class BorracherasComponent implements OnInit {
   borracheras: BorracheraClass[] = [];
   nuevoBorrachera: BorracheraClass = new BorracheraClass();
 
-  constructor(public _http:Http) { }
+  constructor(private _http:Http) { }
 
   ngOnInit() {
      this._http.get('http://localhost:1337/Borrachera')
@@ -34,9 +34,6 @@ export class BorracherasComponent implements OnInit {
   }
   crearBorrachera() {
     console.log("Guardo los datos");
-    /*let usuario= {
-     nombre: this.nuevoUsuario.nombre
-     }*/
     this._http.post('http://localhost:1337/Borrachera', this.nuevoBorrachera)
       .subscribe(
         respuesta => {
@@ -49,16 +46,16 @@ export class BorracherasComponent implements OnInit {
         }
       )
   }
-  eliminarUsuario(id, i){
-
-    this._http.delete('http://localhost:1337/Borrachera'+id).subscribe(respuesta=>{
+  eliminarBorrachera(id,i){
+    console.log("Elimino los datos");
+    this._http.delete("http://localhost:1337/Borrachera/" +id)
+      .subscribe(
+        respuesta=>{
       let rJson = respuesta.json();
       console.log("respuesta json:", rJson);
       this.borracheras.splice(i,1);
-
     }, error=>{
       console.log("error: ", error);
     });
   }
-
 }

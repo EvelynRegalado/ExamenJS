@@ -6,8 +6,9 @@
   <button class="btn btn-outline-success" (click)="cargarHarryPotter()"><<br><br>CARGAR
   </button>
   <div class="row">
-    <div class="col-sm-4" *ngFor="let harrypotter of harrypotters; let i=index">
-      {{harrypotter.name}}
+    {{name}}
+    <div class="col-sm-4" *ngFor="let harrypotter of harrypotters">
+      {{name}}
       <app-pelicula-harry-potter [harrypotter]="harrypotter">
       </app-pelicula-harry-potter>
 

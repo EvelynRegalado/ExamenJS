@@ -8,23 +8,32 @@ import {Http} from "@angular/http";
   styleUrls: ['./harry-potter.component.css']
 })
 export class HarryPotterComponent implements OnInit {
-    harrypotters: any[] = [];
+  harrypotters: PeliculaHarryPotter[];
+  name: string;
 
-  constructor(private _http: Http) { }
+
+  constructor(private _http: Http) {
+  }
 
   ngOnInit() {
   }
-  cargarHarryPotter(){
+
+  cargarHarryPotter() {
     this._http
-      .get('http://hp-api.herokuapp.com/api/characters')
+      .get('http://hp-api.herokuapp.com/api/characters/students')
       // .map(response => response.json())
       .subscribe(
         (reponse) => {
-          console.log('Response: ', reponse);
+          console.log('Response: ', reponse.json());
           console.log(reponse.json());
-          let repuesta: any = reponse.json();
-          console.log(repuesta.next);
-          this.harrypotters = reponse.json().results;
+          let respuesta = reponse.json();
+          console.log(respuesta.next);
+          //this.harrypotters = reponse.json().results;
+
+          this.harrypotters = (respuesta.results);
+
+          this.name = reponse.json()[0].name;
+
           // this.harrypotters = this.harrypotters.map(
 
           //(harryP) => {

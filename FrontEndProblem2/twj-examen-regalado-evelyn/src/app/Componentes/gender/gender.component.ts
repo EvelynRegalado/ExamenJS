@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-gender',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gender.component.css']
 })
 export class GenderComponent implements OnInit {
-
+  @Input() gender: string;
   constructor() { }
 
   ngOnInit() {

@@ -1,3 +1,16 @@
-<p>
-  harry-potter works!
-</p>
+<div class="container">
+
+  <br>
+  <h1>Deber N 1</h1>
+  <br>
+  <button class="btn btn-outline-success" (click)="cargarHarryPotter()"><<br><br>CARGAR
+  </button>
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let harrypotter of harrypotters; let i=index">
+      {{harrypotter.name}}
+      <app-pelicula-harry-potter [harrypotter]="harrypotter">
+      </app-pelicula-harry-potter>
+
+    </div>
+  </div>
+</div>

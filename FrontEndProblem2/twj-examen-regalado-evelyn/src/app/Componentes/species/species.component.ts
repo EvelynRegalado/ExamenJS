@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-species',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./species.component.css']
 })
 export class SpeciesComponent implements OnInit {
-
+  @Input() species: string;
   constructor() { }
 
   ngOnInit() {

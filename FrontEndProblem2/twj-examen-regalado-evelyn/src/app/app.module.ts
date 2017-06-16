@@ -8,6 +8,8 @@ import { GenderComponent } from './Componentes/gender/gender.component';
 import { HouseComponent } from './Componentes/house/house.component';
 import { PatronusComponent } from './Componentes/patronus/patronus.component';
 import { SpeciesComponent } from './Componentes/species/species.component';
+import {HttpModule} from "@angular/http";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { SpeciesComponent } from './Componentes/species/species.component';
     SpeciesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [HarryPotterComponent]

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-patronus',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./patronus.component.css']
 })
 export class PatronusComponent implements OnInit {
-
+  @Input() patronus: string;
   constructor() { }
 
   ngOnInit() {

@@ -49,6 +49,16 @@ export class BorracherasComponent implements OnInit {
         }
       )
   }
+  eliminarUsuario(id, i){
 
+    this._http.delete('http://localhost:1337/Borrachera'+id).subscribe(respuesta=>{
+      let rJson = respuesta.json();
+      console.log("respuesta json:", rJson);
+      this.borracheras.splice(i,1);
+
+    }, error=>{
+      console.log("error: ", error);
+    });
+  }
 
 }

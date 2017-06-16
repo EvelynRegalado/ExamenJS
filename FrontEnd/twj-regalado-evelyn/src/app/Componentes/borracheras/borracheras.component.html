@@ -5,32 +5,51 @@
   <h1 align="center">Tecnologías Web con JavaScript</h1>
   <h2 align="center">Evelyn Regalado</h2>
 
-  <div class="row">
-    <div class="col-sm-6" >
-
+  <div class="row" style="background:powderblue">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
       <div class="form-group">
-
         <label class="col-form-label">
-          Ingrese los datos:
+          Ingrese los datos de su Borrachera:
         </label>
         <!-- Recive al input-->
+        <div align="center">
+        <div class="card" style="width: 20rem; background: transparent" >
+          <div class="card-block">
         <input class="form-control"
                placeholder="Ingrese el Motivo"
-               [(ngModel)]="nuevoBorrachera.motivo" type="text">
+               [(ngModel)]="nuevoBorrachera.motivo" type="text"><br>
         <input class="form-control"
                placeholder="Ingrese la Latitud"
-               [(ngModel)]="nuevoBorrachera.latitudDondeEmpezo" type="text">
+               [(ngModel)]="nuevoBorrachera.latitudDondeEmpezo" type="text"><br>
         <input class="form-control"
                placeholder="Ingrese la Longitud"
                [(ngModel)]="nuevoBorrachera.longitudDondeEmpezo" type="text">
-
       </div>
-      <button class="btn btn-primary" (click)="crearBorrachera()">Guardar</button>
-      <div class="row">
-        <div class="col-sm-3" *ngFor="let borrachera of borracheras">
-        </div>
-    </div>
 
+      <button class="btn btn-outline-warning" (click)="crearBorrachera()">Guardar</button>
+      </div>
+      <br><br>
+    </div>
+      </div>
+    </div>
+    <div class="col-sm-3"></div>
+
+    <div class="row">
+      <div class="col-sm-4" *ngFor="let nuevoBorracher of borracheras;let i = index;">
+        <div class="card" style="width: 20rem;">
+          <div class="card-block">
+            <div class="card-title"> {{nuevoBorracher.motivo}}
+              <div class="card-text">
+              <li> id:{{nuevoBorracher.id}}<br></li>
+              <li> Latitud: {{nuevoBorracher.longitudDondeEmpezo}}</li>
+              <li> Longitud: {{nuevoBorracher.longitudDondeEmpezo}}</li>
+            </div>
+          </div>
+        </div>
+      </div>
+        <br>
     </div>
   </div>
+</div>
 </div>

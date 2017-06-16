@@ -1,55 +1,98 @@
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-<div class="container">
-  <br>
-  <h1 align="center">Escuela Politécnica Nacional</h1>
-  <h1 align="center">Tecnologías Web con JavaScript</h1>
-  <h2 align="center">Evelyn Regalado</h2>
 
-  <div class="row" style="background:powderblue">
-    <div class="col-sm-3"></div>
-    <div class="col-sm-6">
-      <div class="form-group">
-        <label class="col-form-label">
-          Ingrese los datos de su Borrachera:
-        </label>
-        <!-- Recive al input-->
+<br>
+<div class="fondoSW">
+  <!--Primera Fila-->
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <div class="container">
         <div align="center">
-        <div class="card" style="width: 20rem; background: transparent" >
-          <div class="card-block">
-        <input class="form-control"
-               placeholder="Ingrese el Motivo"
-               [(ngModel)]="nuevoBorrachera.motivo" type="text"><br>
-        <input class="form-control"
-               placeholder="Ingrese la Latitud"
-               [(ngModel)]="nuevoBorrachera.latitudDondeEmpezo" type="text"><br>
-        <input class="form-control"
-               placeholder="Ingrese la Longitud"
-               [(ngModel)]="nuevoBorrachera.longitudDondeEmpezo" type="text">
-      </div>
-
-      <button class="btn btn-outline-warning" (click)="crearBorrachera()">Guardar</button>
-      </div>
-      <br><br>
-    </div>
+          <FONT FACE="impact" SIZE=6 COLOR="black">
+            Escuela Politécnica Nacional </FONT> <br>
+          <FONT FACE="impact" SIZE=6 COLOR="black">
+            Tecnologas Web con JajaScript </FONT> <br>
+          <FONT FACE="impact" SIZE=6 COLOR="black">
+            Examen - Primer Ejercicio </FONT>
+        </div>
       </div>
     </div>
-    <div class="col-sm-3"></div>
+    <div class="col-sm-2"></div>
+  </div>
+  <hr>
+  <!--Segunda Fila-->
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-9" >
+      <div class="container">
+        <a href="https://github.com/adrianeguez/TWJ-2017-A/blob/master/Examen/Primer%20Bimestre/2017%2006%2013%2001%20Examen%20de%20verdad%20de%20js.pdf" target="_blank"> <input type="button"  class="btn btn-bs" name="boton" value="Indicaciones" /> </a>
+        <a href="http://localhost:4201/" target="_blank"> <input type="button"  class="btn btn-bs" name="boton" value="Segundo Ejercicio" /> </a>
+      </div>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+  <hr>
+  <!--Tercera Fila-->
+  <div class="row">
+    <div class="container">
+    <div align="center">
+      <FONT FACE="impact" SIZE=4 COLOR="black">
+        Ejercicio Nº7 </FONT> <br>
+      <FONT FACE="impact" SIZE=4 COLOR="black">
+        "Borrachera" </FONT> <br>
+      <img src="assets/Imagenes/borrachera.png" width="150" height="150" alt="Borrachera">
+    </div>
+    </div>
+  </div>
+  <hr>
+  <!--Cuarta Fila-->
+  <div class="row"  >
+    <div class="container">
+      <div align="center">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <FONT FACE="impact" SIZE=4 COLOR="black">
+            Ingrese Datos de la Borrachera </FONT> <br> <br>
+          <!-- Recive al input-->
+          <div align="center">
+            <div class="card" style="width: 20rem; background: transparent">
+              <div class="card-block">
+                <input class="form-control"
+                       placeholder="Ingrese el Motivo"
+                       [(ngModel)]="nuevoBorrachera.motivo" type="text"><br>
+                <input class="form-control"
+                       placeholder="Ingrese la Latitud"
+                       [(ngModel)]="nuevoBorrachera.latitudDondeEmpezo" type="text"><br>
+                <input class="form-control"
+                       placeholder="Ingrese la Longitud"
+                       [(ngModel)]="nuevoBorrachera.longitudDondeEmpezo" type="text">
+              </div>
 
-    <div class="row">
-      <div class="col-sm-4" *ngFor="let nuevoBorracher of borracheras;let i = index;">
-        <div class="card" style="width: 20rem;">
-          <div class="card-block">
-            <div class="card-title"> {{nuevoBorracher.motivo}}
-              <div class="card-text">
-              <li> id:{{nuevoBorracher.id}}<br></li>
-              <li> Latitud: {{nuevoBorracher.longitudDondeEmpezo}}</li>
-              <li> Longitud: {{nuevoBorracher.longitudDondeEmpezo}}</li>
+              <button class="btn btn-outline-warning" (click)="crearBorrachera()">Guardar</button>
             </div>
+            <br><br>
           </div>
         </div>
       </div>
-        <br>
+      <div class="col-sm-3"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4" *ngFor="let nuevoBorracher of borracheras;let i = index;">
+          <div class="card" style="width: 20rem;">
+            <div class="card-block">
+              <div class="card-title"> {{nuevoBorracher.motivo}}
+                <div class="card-text">
+                  <li> id:{{nuevoBorracher.id}}<br></li>
+                  <li> Latitud: {{nuevoBorracher.longitudDondeEmpezo}}</li>
+                  <li> Longitud: {{nuevoBorracher.longitudDondeEmpezo}}</li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+        </div>
+      </div>
     </div>
   </div>
-</div>
 </div>

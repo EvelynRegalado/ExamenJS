@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6c2253-c364-4ea5-98be-c28cae22d16d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/assets/bootstrap/Estilos.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/Interfaces/HarryPotter.ts" afterPath="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/Interfaces/HarryPotter.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/assets/bootstrap/Estilos.css" afterPath="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/assets/bootstrap/Estilos.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/harry-potter/harry-potter.component.html" afterPath="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/harry-potter/harry-potter.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/harry-potter/harry-potter.component.ts" afterPath="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/harry-potter/harry-potter.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/assets/bootstrap/Estilos.css" afterPath="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/assets/bootstrap/Estilos.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="harry-potter.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="harry-potter.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/harry-potter/harry-potter.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+            <state relative-caret-position="187">
+              <caret line="47" column="69" lean-forward="false" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -56,8 +55,18 @@
       <file leaf-file-name="Estilos.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/assets/bootstrap/Estilos.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="88" lean-forward="false" selection-start-line="1" selection-start-column="88" selection-end-line="1" selection-end-column="88" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Estilos.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/assets/bootstrap/Estilos.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -66,8 +75,8 @@
       <file leaf-file-name="borracheras.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="47" />
+            <state relative-caret-position="255">
+              <caret line="45" column="95" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="45" selection-end-column="95" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#!!top" expanded="true" />
@@ -113,13 +122,13 @@
         <option value="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/pelicula-harry-potter/pelicula-harry-potter.component.ts" />
         <option value="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.css" />
-        <option value="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/assets/bootstrap/Estilos.css" />
         <option value="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.ts" />
         <option value="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/harry-potter/harry-potter.component.ts" />
         <option value="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/Interfaces/HarryPotter.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.html" />
         <option value="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/assets/bootstrap/Estilos.css" />
         <option value="$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/harry-potter/harry-potter.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/assets/bootstrap/Estilos.css" />
       </list>
     </option>
   </component>
@@ -375,6 +384,102 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamenJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamenJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twj-regalado-evelyn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamenJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamenJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twj-regalado-evelyn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamenJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamenJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twj-regalado-evelyn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamenJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamenJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twj-regalado-evelyn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -486,12 +591,12 @@
       <workItem from="1497468371799" duration="4211000" />
       <workItem from="1497532139238" duration="10699000" />
       <workItem from="1497553561895" duration="22000000" />
-      <workItem from="1497618097347" duration="30388000" />
+      <workItem from="1497618097347" duration="32150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67298000" />
+    <option name="totallyTimeSpent" value="69060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -896,18 +1001,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/assets/bootstrap/Estilos.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/app/Componentes/borracheras/borracheras.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="47" />
+        <state relative-caret-position="255">
+          <caret line="45" column="95" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="45" selection-end-column="95" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#!!top" expanded="true" />
@@ -915,18 +1012,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/assets/bootstrap/Estilos.css">
+    <entry file="file://$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/harry-potter/harry-potter.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="88" lean-forward="false" selection-start-line="1" selection-start-column="88" selection-end-line="1" selection-end-column="88" />
+        <state relative-caret-position="187">
+          <caret line="47" column="69" lean-forward="false" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/app/Componentes/harry-potter/harry-potter.component.html">
+    <entry file="file://$PROJECT_DIR$/FrontEndProblem2/twj-examen-regalado-evelyn/src/assets/bootstrap/Estilos.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/twj-regalado-evelyn/src/assets/bootstrap/Estilos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>

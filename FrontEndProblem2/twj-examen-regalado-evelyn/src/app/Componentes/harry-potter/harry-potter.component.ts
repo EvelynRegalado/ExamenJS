@@ -11,13 +11,10 @@ export class HarryPotterComponent implements OnInit {
   harrypotters: PeliculaHarryPotter[];
   name: string;
 
-
   constructor(private _http: Http) {
   }
-
   ngOnInit() {
   }
-
   cargarHarryPotter() {
     this._http
       .get('http://hp-api.herokuapp.com/api/characters/students')
@@ -30,17 +27,9 @@ export class HarryPotterComponent implements OnInit {
           console.log(respuesta.next);
           //this.harrypotters = reponse.json().results;
 
-          this.harrypotters = (respuesta.results);
-
-          this.name = reponse.json()[0].name;
-
-          // this.harrypotters = this.harrypotters.map(
-
-          //(harryP) => {
-          //harryP.imagenURL = "/assets/imagenesStarWars" + harryP.name + '.jpg';
-          //return harryP;
-          ///)
-          //Arreglo
+          this.harrypotters = (respuesta);
+          //LLAMO A UN SOLO ELEMENTO DE JSON
+          //this.name = reponse.json()[0].name;
         },
         (error) => {
           console.log('Error: ', error);

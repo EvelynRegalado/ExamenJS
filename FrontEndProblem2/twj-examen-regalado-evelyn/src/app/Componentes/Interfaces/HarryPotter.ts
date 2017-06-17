@@ -11,7 +11,7 @@ export interface PeliculaHarryPotter{
   ancestry: string,
   eyeColour: string,
   hairColour: string,
-  wand: string[]
+  //wand: string[]
   patronus: string,
   hogwartsStudent: boolean,
   hogwartsStaff: boolean,

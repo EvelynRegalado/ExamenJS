@@ -1,10 +1,56 @@
-<div class="container">
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="assets/bootstrap/Estilos.css">
 
-  <br>
-  <h1>Deber N 1</h1>
-  <br>
-  <button class="btn btn-outline-success" (click)="cargarHarryPotter()"><<br><br>CARGAR
-  </button>
+<body class="fondoPotter">
+<div class="container">
+  <div align="center">
+    <br><br>
+  <!--Fila de título Harry-->
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <img
+        src="https://vignette3.wikia.nocookie.net/logopedia/images/9/9c/HarryPotter.png/revision/latest?cb=20160624203951"
+        width="280" height="110"
+        alt="logoHarryPotter">
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <!--Fila de título de materia Harry-->
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <font face="times new roman" size="6" color="black">
+        Segunda parte del Examen de JavaScrip del primer Bimestre
+      </font>
+     </div>
+    <div class="col-sm-2"></div>
+  </div>
+  <!--Fila de ícono Harry-->
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+    <img
+      src="https://i2.wp.com/imagenesparadescargar.net/wp-content/uploads/2014/12/Im%C3%A1genes-para-descargar-con-caricaturas-de-Harry-Potter-1.gif"
+      width="150" height="150"
+      alt="HarryPotter">
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+  <!--Fila de descripción Harry-->
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <font face="times new roman" size="6" color="black">
+        Se realizó con la Appi de Estudiantes de Hogwarts de la película de Harry Potter
+      </font>
+    </div>
+    <div class="col-sm-2"></div>
+
+  </div>
+    </div>
+
+  <button class="btn btn-outline-success" (click)="cargarHarryPotter()"><<br><br>CARGAR</button>
   <div class="row">
     {{name}}
     <div class="col-sm-4" *ngFor="let harrypotter of harrypotters">
@@ -15,3 +61,4 @@
     </div>
   </div>
 </div>
+</body>

@@ -17,5 +17,5 @@ export interface PeliculaHarryPotter{
   hogwartsStaff: boolean,
   actor: string,
   alive: boolean,
-  image: string
+  image?: string
 }

@@ -18,28 +18,27 @@ export class HarryPotterComponent implements OnInit {
   cargarHarryPotter() {
     this._http
       .get('http://hp-api.herokuapp.com/api/characters/students')
-      // .map(response => response.json())
       .subscribe(
         (reponse) => {
           console.log('Response: ', reponse.json());
           console.log(reponse.json());
           let respuesta = reponse.json();
           console.log(respuesta.next);
-          //this.harrypotters = reponse.json().results;
-
           this.harrypotters = (respuesta);
-          //LLAMO A UN SOLO ELEMENTO DE JSON
-          //this.name = reponse.json()[0].name;
+          this.harrypotters = this.harrypotters.map(
+            (harrypotter) => {
+              harrypotter.image = "../assets/ImagenesHarryPotter"+harrypotter.name+'.jpg';
+              return harrypotter;
+            }
+          )
+
         },
         (error) => {
           console.log('Error: ', error);
         },
         () => {
           console.log('Finally');
-
         }
       );
   }
-
-
 }
